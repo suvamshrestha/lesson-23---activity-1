@@ -1,10 +1,5 @@
-import pygame
-pygame.init()
-screen = pygame.display.set_mode((800, 600))
-done = False
-while not done:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-    pygame.display.flip()
-            
+from tkinter import *
+window = Tk()
+window.title('Pygame Window')
+window.geometry('800x600')
+window.mainloop()
